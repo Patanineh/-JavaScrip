@@ -1,3 +1,5 @@
-for (let char of "test") {
-    console.log( char )
+
+
+for (let furniture of ['Table', 'Chairs','Couch']) {
+    console.log( furniture )
 }

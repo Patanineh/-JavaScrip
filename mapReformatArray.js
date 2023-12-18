@@ -1,7 +1,7 @@
 const kvArray = [
-    { key: 1, Value: 10 },
-    { key: 2, Value: 20 },
-    { key: 3, Value: 30 },
+    { key: 1, value: 10 },
+    { key: 2, value: 20 },
+    { key: 3, value: 30 },
 ];
 
 const reformattedArray = kvArray.map(({ key, value }) => ({ [key]: value }));
