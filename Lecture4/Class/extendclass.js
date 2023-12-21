@@ -1,7 +1,7 @@
 //Parent class
 class Media {
     constructor(info) {
-        this.publishDate = info.publishDate;
+        this.publishDate = info.publishDate; //info.publishDate oop
         this.name = info.name;
     }
 }
