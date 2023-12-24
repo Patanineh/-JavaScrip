@@ -6,12 +6,12 @@ function missingDigits(numStr) {
   const str = "0123456789";
   let missingDigits = "";
 
-  for (const digit of str) {
-    if (!numStr.includes(digit)) {
+  for (const dgit of str) {
+    if (!numStr.includes(dgit)) {
       if (missingDigits !== "") {
         missingDigits += ", ";
       }
-      missingDigits += digit;
+      missingDigits += dgit;
     }
   }
 
